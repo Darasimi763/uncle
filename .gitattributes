@@ -1,0 +1,4 @@
+
+# Use Git LFS for large media files (if you use Git LFS)
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+images/*.jpg filter=lfs diff=lfs merge=lfs -text
